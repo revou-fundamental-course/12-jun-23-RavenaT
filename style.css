@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,400;1,300&family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+body{
+    background-color: black;
+    color:#FFD0D0;
+    text-align: center;
+    margin-left: 100px;
+    margin-right:100px;
+    border-radius: 10px;
+}
+
+  label{
+    margin-bottom: 14px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFD0D0;
+    display: flex;
+}
+
+button{
+    background-color: black;
+    color: #FFD0D0;
+    padding: 10px 20px;    
+}
+#inputField{
+    outline: none;
+    font-size:18px;
+    border-radius: 8px;
+    border: solid #FFD0D0;
+    padding: 10px;
+}
+
+#inputField:focus{
+    border: solid #FFD0D0;
+}
+.InputSection{
+    display: flex;
+    flex-direction: column;
+}
+
+.InputButtonSection{
+    display: flex;
+    flex-direction: row;
+    align-self:center;
+}
+
